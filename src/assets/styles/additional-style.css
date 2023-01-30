@@ -1,0 +1,507 @@
+/* Add-new-user */
+
+.add-user-form .new-user .v-application--wrap{
+    min-height: auto !important;
+  }
+  .add-user-form .new-user .v-application{
+    margin-top: 0 !important;
+  }
+  .add-user-form .new-user .justify-center{
+    margin: 0 !important;
+  }
+  .add-user-form .new-user .v-menu__content{
+    top: 65px !important;
+  }
+  
+  
+  .add-user-container{
+      width: 100%;
+      height: auto;
+  }
+  .add-user-container .add-user-header{
+      width: 100%;
+      margin-left: 15px;
+      margin-top: 15px;
+      display: flex;
+      flex: 0 0 auto;
+      position: relative;
+  }
+  .add-user-header .user-profile-img{
+      position: absolute;
+      right: 50px;
+      cursor: pointer;
+  }
+  .add-user-header .user-header-left{
+      width: 50%;
+  }
+  .add-user-header .user-header-left h2{
+      font-size: 24px;
+      font-weight: 800;
+      margin-left: 10px;
+  }
+  
+  
+  .add-user-container .add-user-content{
+      width: 98%;
+      display: flex;
+      flex: 0 0 auto;
+      flex-wrap: wrap;
+      height: auto;
+      display: flex;
+      margin: 15px 10px 15px 15px;
+      background: #fff;  
+      border-radius: 15px; 
+  }
+  .add-user-content .add-user-form{
+      width: 97%;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 0 0 auto;
+      justify-content:space-between;
+      position: relative;
+      padding-bottom: 150px;
+      margin-top: 25px;
+      margin-left: 15px;
+  }
+  .add-user-form .new-user{
+      display: flex;
+      width: 30%;
+      margin-left: 15px;
+      margin-top: 35px;
+      position: relative;
+  }
+  
+  .add-user-form .new-user .add-user-title{
+      position: absolute;
+      top: -10px;
+      left: 5px;
+      font-size: 1rem;
+      font-weight: 800;
+      z-index: 10;
+  }
+  .add-user-form .new-user .add-user-department{
+      position: absolute;
+      left: 140px;
+      top: -5px;
+      z-index: 10;
+      font-size: 1rem;
+      font-weight: 800;
+  }
+  .add-user-form .add-user-password input{
+      display: block;
+      margin-top: 25px;
+      padding: 5px;
+      padding-left: 10px;
+      border-radius: 10px;
+      width: 75%;
+      height: 50px;
+      border: 2px solid #ccc;
+      font-size: 1rem;
+      font-weight: 500;
+  }
+  .add-user-form .add-user-password input:hover{
+      border: 2px solid #2AC510;
+  }
+  .add-user-form .new-user span{
+      display: block;
+      margin-top: 10px;
+      width: 75%;
+      background: #1C9E3C;
+      text-align: center;
+      height: 50px;
+      border-radius: 10px;
+      padding-top: 15px;
+      color: #ccc;
+      font-size: 1rem;
+      font-weight: 600;
+  }
+  .add-user-form .new-user .user-department-img{
+      position: absolute;
+      top: 50px;
+      right: 100px;
+      z-index: 10;
+  }
+  .add-user-form .new-user .user-role-img{
+      position: absolute;
+      top: 50px;
+      right: 200px;
+      z-index: 10;
+  }
+  .add-user-form .new-user span:hover{
+      color: #1C9E3C;
+      background: #ccc;
+      cursor: pointer;
+  }
+  .add-footer-image .add-user-btn{
+      display: flex;
+      width: 50%;
+      margin-top: 100px;   
+  }
+  .add-footer-image .add-user-btn button{
+      display: block;
+      margin-left: 75px;
+      width: 25%;
+      height: 50px;
+      border-radius: 10px;
+      color: #FFFFFF;
+      font-size: 1rem;
+      font-weight: 600;
+      border: 2px solid #ccc;
+  }
+  .add-user-btn .user-btn-exit{
+      background: rgba(244, 33, 45, 0.48);
+  }
+  .add-user-btn .user-btn-exit:hover{
+      background: #FFFFFF;
+      color: rgba(244, 33, 45, 0.48);
+      border: 2px solid rgba(244, 33, 45, 0.48);
+  }
+  .add-user-btn .user-btn-save{
+      background: #1C9E3C;
+  }
+  .add-user-btn .user-btn-save:hover{
+      background: #FFFFFF;
+      color: #1C9E3C;
+      border: 2px solid #1C9E3C;
+  }
+  .add-user-content .add-footer-image{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+      width: 100%;
+      margin-top: 50px;
+      margin-left: 100px;
+      margin-bottom: 15px;
+  }
+  .add-footer-image img{
+      display: block;
+      width: 75%;
+      margin-left: 50px;
+  }
+  
+
+
+
+  .user-header-left .add-user-route{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+}
+.add-user-route .setting-span-one{
+  display: block;
+    width: 15%;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+} 
+.add-user-route .setting-span-two{
+  display: block;
+  width: 30%;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+ .add-user-route span{
+  display: block;
+  width: 30%;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.add-user-route img{
+  display: block;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+.user-items-container .user-items-header .personal-keys {
+    display: none;
+  }
+  .user-items-container .user-item-container{
+      background: #FFFFFF;
+      width: 97%;
+      margin-left: 25px;
+      margin-top: 15px;
+  }
+      .user-items-container .user-items-header{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          margin-top: 15px;
+          margin-left: 35px;
+      }
+      .user-items-header .items-left-block-one{
+          width: 50%;
+          margin-left: 10px;
+          display: flex;
+          flex-direction: column;
+      }
+      .items-left-block-one h1{
+          font-size: 2rem;
+          font-weight: 800;
+      }
+      .items-left-block-one .item-route-block{
+          position: relative;
+          display: flex;
+          margin-top: 10px;
+      }
+      .item-route-block span{
+          display: block;
+          font-size: 1rem;
+          font-weight: 600;
+          cursor: pointer;
+      }
+      .item-route-block img{
+          display: block;
+          width: 10px;
+          height: 15px;
+          margin-top: 5px;
+          margin-left: 5px;
+      }
+      .item-route-block .item-route{
+          margin-left: 5px;
+      }
+      .user-items-header .items-right-block-one{
+          position: absolute;
+          right: 25px;
+          top: 25px;
+      }
+
+
+
+
+
+  /* User Settings */
+
+.user-settings-container{
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.user-settings-table{
+    background: #FFFFFF;
+    margin-left: 15px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.user-settings-table table{
+    display: block;
+    width: 100%;
+}
+.user-settings-table table .table-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.user-settings-table table .table-header th{
+    display: block;
+    width: 10%;
+    margin-left: 0.5%;
+    text-align: left;
+    color: #A0AEC0;
+    margin-top: 5px;
+}
+.user-settings-table table .table-header{
+    background: #F7FAFC;
+    margin: 0;
+    padding: 0;
+}
+
+.settings-container{
+    position: relative;
+    margin-left: 25px;
+}
+.settings-container .settings-header{
+    display: flex;
+    position: relative;
+    height: 250px;
+}
+.settings-header .header-left-blog{
+    text-align: left;
+}
+.settings-header .header-left-blog span{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.settings-header .header-left-blog p{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.settings-header img{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+.settings-container .settings-route{
+    position: absolute;
+    left: 15px;
+    top: 100px;
+}
+.settings-route button{
+    position: relative;
+    width: 275px;
+    height: 110px;
+    background: #fff;
+    color: #1C9E3C;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.settings-route button img{
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+.settings-route button p{
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    bottom: 40px;
+}
+.settings-content{
+    background: #fff;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.user-settings-container .user-settings-header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.user-settings-header .settings-header-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.settings-header-left .header-route span{
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.user-settings-header .settings-header-right{
+    align-self: flex-end;
+    position: absolute;
+    right: 35px;
+}
+.settings-header-left .header-route p{
+    display: block;
+    margin-left: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.settings-header-left .header-route img{
+    position: absolute;
+    left: 85px;
+    top: 60px;
+    display: block;
+    width: 10px;
+    height: 15px;
+}
+.settings-header-left h2{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.settings-header-left .header-route{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+table .settings-table{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+}
+table .settings-table td{
+    cursor: pointer;
+}
+table .settings-table .td-one{
+    display: block;
+    width: 25%;
+    text-align: left;
+    margin-left: 33px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #A0AEC0;
+}
+table .settings-table .td-two{
+    display: block;
+    width: 25%;
+    text-align: left;
+    margin-left: 33px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #A0AEC0;
+    margin-left: 7%;
+}
+
+hr{
+    border: 1px solid #E2E8F0
+}
+.user-settings-container .user-add {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    padding-bottom: 25px;
+  }
+  .user-add .request-footer .pagination-container .footer-left-block .pagination-right-btn{
+    flex-direction: row;
+  }
+  .user-add .request-footer .pagination-container .footer-left-block .pagination-right-btn img{
+    width: 10px;
+    margin: auto;
+  }
+  .user-add .add-user-item{
+      width: 25%;
+  }
+  .user-add .add-user-item button{
+    margin-top: 10px;
+  }
+  
+  .request-footer app-pagination{
+      width: 75%;
+      
+  }
+  .user-add .add-user-item button{
+      display: block;
+      width: 75%;
+      height: 50px;
+      font-size: 1rem;
+      font-weight: 600;
+      background: #38AA54;
+      border-radius: 15px;
+      color: #FFFFFF;
+  }
+  .user-add .add-user-item button:hover{
+      color: #38AA54;
+      background: #FFFFFF ;
+  }
+
+
+
+  /* Pagination */
+
+  

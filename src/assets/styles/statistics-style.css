@@ -1,0 +1,217 @@
+/* Statistics */
+
+.statistics-container{
+    margin-left: 25px;
+    margin-top: 10px;
+    min-width: 50%;
+    width: 90%;
+    position: relative;
+}
+.statistics-container .statistics-header{
+    display: flex;
+    position: relative;
+}
+.statistics-header .statistics-header-left{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.statistics-header .statistics-header-left h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.statistics-header .statistics-header-left p{
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.statistics-container .statistics-header img{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.statistics-content .statistics-content-header{
+    display: flex;
+    flex: 0 0 auto;
+    position: relative;
+    margin-top: 25px;
+    width: 100%;
+    height: 25%;
+}
+
+
+
+.statistics-content .statistics-content-header .v-application--wrap {
+    min-height: auto;
+}
+
+.statistics-content .statistics-content-header .v-application{
+  background: none !important;
+  width: 25% !important;
+  margin-top: 20px !important;
+}
+.statistics-content .statistics-content-header .col-sm-6{
+  width: 100% !important;
+  
+}
+
+.statistics-content .statistics-content-header .v-menu__content{
+  max-height: 320px;
+  min-width: 75% !important;
+  top: 50px !important;
+  margin-left: -100px;
+  margin-top: 35px;
+  background: #1fef52;
+  /* left: 10px !important; */
+}
+.statistics-content .statistics-content-header .v-menu__content{
+  position: absolute;
+  top: 75px !important;
+  width: 75%;
+  height: auto;
+}
+.statistics-content .statistics-content-header .justify-center{
+  border-radius: 10px !important;
+  margin: 0 !important;
+  background: #FFFFFF;
+  margin-left: 15px !important;
+}
+.statistics-content .statistics-content-header .statistics-content-header .drop-common{
+  width: 25%;
+  display: flex;
+  flex: 0 0 auto;
+}
+.v-application p{
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 10px;
+}
+
+
+.statistics-header .personal-keys {
+  display: none;
+}
+.statistics-content-content {
+  width: 100%;
+  margin-top: 25px;
+  margin-left: 15px;
+}
+.statistics-content-content table {
+  display: block;
+  background: #fff;
+  width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.statistics-content-content table tr {
+  display: flex;
+  width: 100%;
+  justify-items: flex-start;
+  padding-right: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.statistics-content-content table tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+.statistics-content-content table tr th {
+  display: block;
+  flex: 0 0 auto;
+  width: 25%;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+.statistics-content-content table tr td {
+  display: block;
+  flex: 0 0 auto;
+  width: 25%;
+  margin-top: 15px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.statistics-footer {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  /* align-items: center; */
+}
+.statistics-footer .pagination-container .footer-left-block .pagination-right-btn{
+  flex-direction: row !important;
+  align-items: center;
+  justify-items: center;
+  padding-right: 15px !important;
+  box-sizing: border-box;
+}
+.statistics-footer .pagination-container .footer-left-block .pagination-right-btn img{
+  width: 10px !important;
+  display: inline-block;
+  margin: auto;
+}
+
+.statistics-footer .statistics-footer-right {
+  display: flex;
+  width: 40%;
+  margin: auto;
+}
+.statistics-footer-right button {
+  display: block;
+  position: relative;
+  width: 50%;
+  margin: auto;
+  box-sizing: border-box;
+  background: #ffffff;
+  padding: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 10px;
+  color: #ccc;
+}
+.statistics-footer-right button:hover {
+  color: #1fef52;
+}
+.statistics-footer-right button img {
+  display: block;
+  width: 15%;
+  position: absolute;
+  left: 10px;
+  margin-right: 10px;
+}
+
+
+.statistics-content-header .v-application .v-select__selections input{
+  cursor: pointer;
+}
+.statistics-content-header .v-application svg{
+  position: absolute;
+  top: 40px;
+  margin-left: 230px;
+}
+.statistics-content-header .active-svg-one{
+  transform: rotate(180deg);
+  transition: transform .5s;
+}
+.statistics-content-header .deactive-svg-one{
+  transition: transform .5s;
+}
+.statistics-content-header .active-svg-two{
+  transform: rotate(180deg);
+  transition: transform .5s;
+}
+.statistics-content-header .deactive-svg-two{
+  transition: transform .5s;
+}
+.statistics-content-header .v-application .v-menu__content{
+  margin-left: -85px !important;
+}
